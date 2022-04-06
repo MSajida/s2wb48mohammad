@@ -5,7 +5,6 @@ block content
   h1= title
   p Welcome to #{title}
   - var results = [{name:"BudLight", type: "Lager", price:12}, {name:"Colt45", type: "Malt", price:13},{name:"WellsIPA", type: "Ale", price:14}]
-  -var space="   "
   div(class="container-fluid") 
   div(class="row")
   -
@@ -14,4 +13,4 @@ block content
   script.
     function buy(itemNo){
       alert(`You purchased Item ${itemNo+1}`)
-    }   
+    }
